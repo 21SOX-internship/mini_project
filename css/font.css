@@ -190,7 +190,7 @@
     line-height: 1.16;
     letter-spacing: normal;
     text-align: left;
-    color: black;
+    color: #fff;
 }
 
 .profilep_ment3 {
@@ -207,7 +207,42 @@
     line-height: 1.17;
     letter-spacing: normal;
     text-align: left;
-    color: black;
+    color: #fff;
+}
+
+.profilep_folder_name {
+    position: relative;
+    /* margin-top: 93px; */
+    margin-left: 20px; 
+    width: 57.85px;
+    height: 16px;
+    text-align: right;
+    font-family: NanumBarunGothic;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #7e7e7e;
+}
+
+.profilep_goal_date {
+    position: relative;
+    margin-top: 90px;
+    margin-left: 10%;
+    /* margin-right: 13%; */
+    width: 88px;
+    height: 18.5px;
+    font-family: NanumBarunGothic;
+    font-size: 12px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #7e7e7e;
 }
 
 
