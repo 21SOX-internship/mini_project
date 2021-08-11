@@ -1,0 +1,46 @@
+.startp_mainimg {
+    width: 65%;
+    float: right;
+    margin-top: 15px;
+}
+
+.pink_circle {
+    width: 10%;
+}
+
+.home_nogoalimg {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.logoimg {
+    width: 15%;
+}
+
+.goal_icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+.goal_icon_big {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+.homep_goallist_modify_icon {
+    width: 20px;
+    display: block;
+    margin: auto;
+    float: right;
+}
+
+.home_goallistp_add_goal_icon {
+    width: 35px;
+    display: block;
+    margin: auto;
+}

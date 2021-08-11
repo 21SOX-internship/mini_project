@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+    <title>집중일기</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/record_goalp.js"></script>
+    <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/picture.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/menubar.css">
+    <link rel="stylesheet" href="css/divdesign.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf"></link>
+    <link rel="stylesheet" href="font/digital-7.ttf">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .timerBox .time {
+            font-size: 30pt;
+            color: #4C4C4C;
+            text-align: center;
+            font-family: digital-7;
+        }
+        
+        .btnBox {
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        .btnBox .fa {
+            margin: 0px 5px;
+            font-size: 30pt;
+            color: #FAED7D;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home_record_goalp_background">
+        <img class="logoimg" src="img/logo.svg">
+        <p class="title_text">집중일기 <img class="pink_circle" src="img/pink_twocircle.svg" /></p>
+        <div class="icon_boarder_pink_big"><img src="img/tags/goal_coding.png" class="goal_icon_big"></div>
+        <div class="home_record_goalp_goal_border">
+            <p class="home_record_goalp_goal_name">코딩하기</p>
+        </div>
+
+        <div id='box' class="box">
+            <div id='timerBox' class="timerBox">
+                <div id="time" class="time">00:00:00</div>
+            </div>
+            <div class="btnBox">
+                <i id="startbtn" class="fa fa-play" aria-hidden="true"></i>
+                <i id="pausebtn" class="fa fa-pause" aria-hidden="true"></i>
+                <i id="stopbtn" class="fa fa-stop" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </div>
+    <!-- 메뉴 -->
+    <ul class="menubar">
+        <a href="#">
+            <li class="menubar_inner">
+                <div><img class="menu_icon_home" src="img/home_active.png"></div><span class="menubar_text_active">홈</span>
+            </li>
+        </a>
+        <a href="#">
+            <li class="menubar_inner">
+                <div><img class="menu_icon_friend" src="img/friend_default.png"></div><span class="menubar_text_default">친구</span>
+            </li>
+        </a>
+        <a href="#">
+            <li class="menubar_inner">
+                <div><img class="menu_icon_group" src="img/group_default.png"></div><span class="menubar_text_default">그룹</span>
+            </li>
+        </a>
+        <a href="#">
+            <li class="menubar_inner">
+                <div><img class="menu_icon_mypage" src="img/mypage_default.png"></div><span class="menubar_text_default">마이페이지</span>
+            </li>
+        </a>
+    </ul>
+    <!-- 메뉴 -->
+</body>
+
+</html>
