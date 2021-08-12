@@ -245,6 +245,45 @@
     color: #7e7e7e;
 }
 
+/* 프로필 설정 페이지 폰트 CSS */
+
+.profilep_edit_save {
+    position: absolute;
+    /* margin-left: 8%; */
+    margin-left: 40px;
+    /* margin-top: 90%; */
+    margin-top: 150px; 
+    padding-top: 5px;
+    width: 249.5px;
+    height: 44px;
+    font-family: NanumBarunGothic;
+    font-size: 24px;
+    background-color: #fdfdfd;
+    border-radius: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #81c9be;
+}
+
+.profilep_edit_message {
+    width: 80px;
+    height: 37px;
+    margin-top: 243px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    font-family: NanumBarunGothic;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    display: inline-block;
+}
 
 /* 홈-목표설정페이지 폰트 CSS */
 
@@ -278,4 +317,22 @@
     color: #72b2a8;
     font-weight: bold;
     text-align: center;
+}
+
+/* 친구목록페이지 폰트 CSS */
+
+.friend_list_title {
+    position: absolute;
+    margin-top: 96.7px;
+    margin-left: 40px;
+    font-family: NanumBarunGothic;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #1b1a15;
+}
 }

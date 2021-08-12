@@ -96,3 +96,35 @@
     height: 57.85px;
   }
   
+
+  /* 프로필 수정 화면 아이콘 */
+
+  .profilep_edit_profile_circle {
+    position: absolute;
+    margin-top: 34px;
+    /* margin-left: 118px; */
+    margin-left: 23%;
+    background-color: #fdfdfd;
+    width:140px;
+    height:140px;
+    border-radius:50%;
+  
+  }
+  
+  .profilep_edit_profile_image {
+    position: absolute;
+    margin-top: 35.5px;
+    /* margin-left: 119.5px; */
+    margin-left: 23.37%;
+    width: 137px;
+    height: 137px;
+  }
+  
+  .profilep_edit_profile_edit {
+    position: absolute;
+    margin-top: 134px;
+    margin-left: 48%;
+    width: 37.5px;
+    height: 37.5px;
+  
+  }

@@ -107,3 +107,25 @@
     margin: auto;
     margin-top: 25px;
 }
+
+/* 프로필페이지 DIV CSS */
+
+.profilep_edit_line1 {
+    position: absolute;
+    margin-top: 213px;
+    margin-left: 20px;
+    width: 295px;
+    height: 0px;
+    border: solid 1px #fdfdfd;
+    background-color: #fdfdfd;
+}
+
+.profilep_edit_line2 {
+    position: absolute;
+    margin-top: 7.5px;
+    margin-left: 20px;
+    width: 295px;
+    height: 0px;
+    border: solid 1px #fdfdfd;
+    background-color: #fdfdfd;
+}
