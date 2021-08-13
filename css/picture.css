@@ -45,6 +45,14 @@
     margin: auto;
 }
 
+.home_record_goalp_icon_img {
+    width: 26px;
+    height: 31.25px;
+    display: flex;
+    margin: auto;
+    margin-left: 20px;
+}
+
 .profilep_logo {
     position: absolute;
     width: 15%;
@@ -186,4 +194,15 @@
     height: 23px;
     margin-left: 332px;
     margin-top: 50px;
+  }
+
+
+  /* 추가됨 */
+
+  .home_record_goalp_icon_img {
+    width: 26px;
+    height: 31.25px;
+    display: flex;
+    margin: auto;
+    margin-left: 20px;
   }
