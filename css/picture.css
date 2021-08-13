@@ -128,3 +128,42 @@
     height: 37.5px;
   
   }
+
+
+  /* 친구 목록 페이지 프로필 이미지 */
+
+  .friend_list_profile_image {
+      /* display: inline-block; */
+      position: absolute;
+      margin-top: 11.5px;
+      margin-left: 21.5px;
+      width: 47px;
+      height: 47px;
+  }
+
+  /* 친구 관리 페이지 이미지 */
+
+  .friend_list_delete_img {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 27px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .friend_list_search_image {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 297px;
+    width: 10.5px;
+    height: 10.5px
+
+  }
+
+  .friend_list_setting_image {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    margin-left: 332px;
+    margin-top: 50px;
+  }
