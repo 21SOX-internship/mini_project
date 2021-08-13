@@ -96,6 +96,26 @@
     height: 57.85px;
   }
   
+  /* 프로필 화면 이미지 */
+
+  .profilep_profile_edit_button {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 23.45px;
+    height: 23.45px;
+  }
+
+  .profilep_profile_setting_button {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 340.45px;
+    width: 23.45px;
+    height: 23.45px;
+  }
+
+
+
 
   /* 프로필 수정 화면 아이콘 */
 
