@@ -16,49 +16,7 @@
     <link rel="stylesheet" href="css/input.css">
     <link rel="stylesheet" href="css/menubar.css">
     <link rel="stylesheet" href="css/divdesign.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf"></link>
-    <link rel="stylesheet" href="font/digital-7.ttf">
 
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-        
-        body {
-            height: 100vh;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .box {
-            width: 200px;
-            height: 200px;
-        }
-        
-        .timerBox .time {
-            font-size: 30pt;
-            color: #4C4C4C;
-            text-align: center;
-            font-family: digital-7;
-        }
-        
-        .btnBox {
-            margin: 20px auto;
-            text-align: center;
-        }
-        
-        .btnBox .fa {
-            margin: 0px 5px;
-            font-size: 30pt;
-            color: #FAED7D;
-            cursor: pointer;
-        }
-    </style>
 </head>
 
 <body>
@@ -69,17 +27,14 @@
         <div class="home_record_goalp_goal_border">
             <p class="home_record_goalp_goal_name">코딩하기</p>
         </div>
-
-        <div id='box' class="box">
-            <div id='timerBox' class="timerBox">
-                <div id="time" class="time">00:00:00</div>
-            </div>
-            <div class="btnBox">
-                <i id="startbtn" class="fa fa-play" aria-hidden="true"></i>
-                <i id="pausebtn" class="fa fa-pause" aria-hidden="true"></i>
-                <i id="stopbtn" class="fa fa-stop" aria-hidden="true"></i>
-            </div>
+        <div class="time">
+            <span id="Hour">00</span>
+            <span>:</span>
+            <span id="Min">00</span>
+            <span>:</span>
+            <span id="Sec">00</span>
         </div>
+        <div class="home_record_goalp_icon_border" onclick="toggleImg()"><img src="img/play_record_icon.png" class="home_record_goalp_icon_img" id="record_icon"></div>
 
     </div>
     <!-- 메뉴 -->
@@ -107,5 +62,8 @@
     </ul>
     <!-- 메뉴 -->
 </body>
+<script>
+    console.log(document.getElementById("record_icon").src);
+</script>
 
 </html>
