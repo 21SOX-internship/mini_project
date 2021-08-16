@@ -235,7 +235,6 @@
 
 .profilep_folder_name {
     position: relative;
-    /* margin-top: 93px; */
     margin-left: 20px;
     width: 57.85px;
     height: 16px;
@@ -255,7 +254,6 @@
     position: relative;
     margin-top: 90px;
     margin-left: 10%;
-    /* margin-right: 13%; */
     width: 88px;
     height: 18.5px;
     font-family: NanumBarunGothic;
@@ -272,14 +270,10 @@
 /* 마이페이지 설정 페이지 폰트 CSS */
 
 .profilep_edit_save {
-    position: absolute;
-    /* margin-left: 8%; */
-    margin-left: 40px;
-    /* margin-top: 90%; */
-    margin-top: 150px;
-    padding-top: 5px;
+    position: relative;
     width: 249.5px;
     height: 44px;
+    margin-bottom: 0px;
     font-family: NanumBarunGothic;
     font-size: 24px;
     background-color: #fdfdfd;
@@ -287,16 +281,15 @@
     font-weight: bold;
     font-style: normal;
     text-align: center;
+    line-height: 44px;
     color: #81c9be;
 }
 
 .profilep_edit_message {
+    position: relative;
     width: 80px;
     height: 37px;
-    margin-top: 243px;
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 0px;
+    margin-top: 13.5px;
     font-family: NanumBarunGothic;
     font-size: 16px;
     font-weight: bold;
@@ -371,26 +364,27 @@
 }
 
 .friend_list_profile_name {
-    position: absolute;
+    /* position: absolute; */
     width: 43px;
     height: 18.5px;
-    margin-top: 26px;
-    margin-left: 90.5px;
+    /* margin-top: 26px; */
+    margin-left: 20px;
     font-family: NanumBarunGothic;
+    display: inline-block;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.16;
+    line-height: 47px;
     letter-spacing: normal;
     text-align: left;
     color: #4b4b4b;
 }
 
 .friend_list_profile_time {
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 190px;
+    position: relative;
+    float: right;
+    line-height: 47px;
     font-size: 25px;
     font-family: NanumBarunGothic;
 }
@@ -399,17 +393,17 @@
 /* 친구 관리 페이지 폰트 CSS */
 
 .friend_manage_search_text {
-    /* position: absolute; */
     width: 85px;
     height: 21px;
     display: inline;
-    /* margin: 124.6px 32px 0 80px; */
+    float: left;
+    padding-top: 5px;
     font-family: NanumBarunGothic;
     font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.17;
+    line-height: 21px;
     letter-spacing: normal;
     text-align: left;
     color: #81c9be;
@@ -418,7 +412,6 @@
 .friend_manage_text {
     width: 85px;
     height: 21px;
-    /* margin: 124.6px 32px 0 80px; */
     font-family: NanumBarunGothic;
     font-size: 18px;
     font-weight: bold;
@@ -431,30 +424,27 @@
 }
 
 .friend_list_friend_accept {
-    position: absolute;
-    margin-left: 207px;
-    margin-top: 26px;
+    display: inline-block;
     font-family: NanumBarunGothic;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.16;
+    line-height: 47px;
     letter-spacing: normal;
     text-align: left;
     color: #81c9be;
 }
 
 .friend_list_friend_refuse {
-    position: absolute;
-    margin-left: 250.5px;
-    margin-top: 26px;
+    display: inline-block;
+    margin-left: 10px;
     font-family: NanumBarunGothic;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.16;
+    line-height: 47px;
     letter-spacing: normal;
     text-align: left;
     color: #ff8d8d;

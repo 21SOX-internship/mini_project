@@ -22,26 +22,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
-<body>
-    <div class="profilep_edit_background1">
+<body class="profilep_edit_body">
+    <div class="profilep_edit_header_background">
         <img class="profilep_logo" src="img/logo.svg">
         <img class="profilep_circles_image" src="img/profilep_blue_twocircle.svg">
         <p class="profilep_ment">마이페이지</p>
     </div>
-
-    <div class="profilep_edit_background2">
-        <div class="profilep_edit_profile_circle"></div>
-        <img class="profilep_edit_profile_image" src="img/profilep_profile.png">
-        <img class="profilep_edit_profile_edit" src="img/profilep_profile_edit.png">
-        <div class="profilep_edit_line1"></div>
-        <p class="profilep_edit_message">상태메시지</p>
-        <input type="text" class="profilep_edit_message_input" placeholder="상태메시지를 입력하세요.">
-        <form>
+    <div class="profilep_edit_main_background">
+        <div class="profilep_edit_image_background">
+            <div class="profilep_edit_profile_circle"></div>
+            <img class="profilep_edit_profile_image" src="img/profilep_profile.png">
+            <img class="profilep_edit_profile_edit" src="img/profilep_profile_edit.png">
+        </div>
+        <div class="profilep_edit_message_background">
+            <div class="profilep_edit_message_box">
+                <p class="profilep_edit_message">상태메시지</p>
+                <input type="text" class="profilep_edit_message_input" placeholder="상태메시지를 입력하세요.">
+            </div>
+        </div>
+        <div class="profilep_edit_save_background">
             <p class="profilep_edit_save" type="button">저장</p>
-        </form>
-        <div class="profilep_edit_line2"></div>
-
+        </div>
+        
     </div>
+    
 
     <div class="profilep_menubar">
         <ul class="menubar">
@@ -67,10 +71,6 @@
             </a>
         </ul>
     </div>
-
-
-
-
 
 </body>
 

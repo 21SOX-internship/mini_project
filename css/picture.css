@@ -131,19 +131,19 @@
     position: absolute;
     margin-top: 34px;
     /* margin-left: 118px; */
-    margin-left: 23%;
+    /* margin-left: 23%; */
     background-color: #fdfdfd;
-    width:140px;
-    height:140px;
+    width:143px;
+    height:143px;
     border-radius:50%;
   
   }
   
   .profilep_edit_profile_image {
-    position: absolute;
-    margin-top: 35.5px;
+    position: relative;
+    margin-top: 34px;
     /* margin-left: 119.5px; */
-    margin-left: 23.37%;
+    /* margin-left: 23.37%; */
     width: 137px;
     height: 137px;
   }
@@ -151,7 +151,7 @@
   .profilep_edit_profile_edit {
     position: absolute;
     margin-top: 134px;
-    margin-left: 48%;
+    margin-left: 25%;
     width: 37.5px;
     height: 37.5px;
   
@@ -161,10 +161,7 @@
   /* 친구 목록 페이지 프로필 이미지 */
 
   .friend_list_profile_image {
-      /* display: inline-block; */
-      position: absolute;
-      margin-top: 11.5px;
-      margin-left: 21.5px;
+      display: inline-block;
       width: 47px;
       height: 47px;
   }
@@ -172,19 +169,20 @@
   /* 친구 관리 페이지 이미지 */
 
   .friend_list_delete_img {
-    position: absolute;
-    margin-left: 260px;
-    margin-top: 27px;
+    position: relative;
+    float: right;
     width: 15px;
     height: 15px;
+    margin-top: 15px;
+    /* line-height: 15px; */
+    /* vertical-align: middle; */
   }
 
   .friend_list_search_image {
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 297px;
+    float: right;
     width: 10.5px;
-    height: 10.5px
+    height: 10.5px;
+    margin-top: 10px;
 
   }
 
